@@ -1,0 +1,38 @@
+{
+  "name": "zylkovroistat/parser-http-access-log",
+  "description": "Analyze and parsing http access_log",
+  "license": "MIT",
+  "type": "library",
+  "keywords": [
+    "http",
+    "log",
+    "parser"
+  ],
+  "readme": "README.md",
+  "authors": [
+    {
+      "name": "Daniil Zylkov",
+      "email": "zylkov.work@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "zylkovroistat\\parserHttpAccessLog\\Model\\": "src/Model",
+      "zylkovroistat\\parserHttpAccessLog\\Service\\": "src/Service",
+      "zylkovroistat\\parserHttpAccessLog\\Service\\Parser\\": "src/Service/Parser",
+      "zylkovroistat\\parserHttpAccessLog\\Exception\\": "src/Exception"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "zylkovroistat\\parserHttpAccessLog\\Model\\": "src/Model",
+      "zylkovroistat\\parserHttpAccessLog\\Service\\": "src/Service",
+      "zylkovroistat\\parserHttpAccessLog\\Service\\Parser\\": "src/Service/Parser",
+      "zylkovroistat\\parserHttpAccessLog\\Exception\\": "src/Exception"
+    }
+  }
+}
