@@ -37,4 +37,4 @@ $ php parser.php testlog.txt
 
 ## :scroll: License
 
-The scripts in this project are under the MIT License.
+The scripts in this project are under the [MIT License](LICENSE).
